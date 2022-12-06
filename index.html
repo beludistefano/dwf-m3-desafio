@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans&family=Roboto&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./index.css">
+    <title>Belu Di Stefano</title>
+</head>
+<body>
+    <header id="header">
+        <div id="logo" class="header-div">
+            <img src="./fotos/logo.png" alt="logo de Belu">
+        </div>
+        <div id="menu-hamb" class="header-div">
+            <img src="./fotos/menu.png" width="36" height="32">
+        </div>
+        <div id="menu-large" class="header-div">
+            <a href="#presentacion" class="menu-item">Quien soy</a>
+            <a href="#servicios" class="menu-item">Servicios</a>
+            <a href="#form" class="menu-item">Escribime</a>
+        </div>
+    </header>
+    <div id="bienvenida" class="body-div">
+        <h1>Bienvenidos a mi Sitio!</h1>
+        <img src="./fotos/belu.png" alt="Foto de Belu" width="300">
+    </div>
+    <div id="presentacion" class="body-div">
+        <div id="presen-text">
+        <h2 id="test">Soy Belu</h2>
+        <p>Full stack web developer in the making. Lo suficientemente nerd como para que me encante volverme loca con el código, pero lo suficientemente ex-artista como para que me encante diseñar cosas bonitas. Vivo en español, trabajo en inglés, pero a veces no coordino ninguno.</p></div>
+        <div id="presen-photo"><img src="./fotos/pic-pc.png" width="160"></div>
+    </div>
+    <div id="servicios" class="body-div">
+        <h2>¿Qué hago?</h2>
+        <div id="grid-container">
+        <article class="article">
+            <img src="./fotos/background.png" alt="foto de mi servicio" width="300">
+            <h4>Experiencia Artística</h4>
+            <p>Hasta hace 3 años, mi trabajo era exclusivamente como cantante y bailarina. Esto me dio muchas habilidades artísticas y estéticas que me gustaría aplicar como desarrolladora web.</p>
+        </article>
+        <article class="article">
+            <img src="./fotos/webdesign.png" alt="foto de mi servicio" width="300">
+            <h4>Desarrollo Web</h4>
+            <p>Comencé a formarme en desarrollo web en plena pandemia y me encantó el mundo, en especial el desarrollo front-end. A su vez, actualmente estoy tomando cursos de Diseño UX/UI en la Interaction Design Foundation.</p>
+        </article>
+        <article class="article">
+            <img src="./fotos/travel.png" alt="foto de mi servicio" width="300">
+            <h4>Trabajos en el exterior</h4>
+            <p>Desde muy chica me encanta viajar y relacionarme con gente de muchas partes del mundo. Actualmente, trabajo de forma remota como asistente virtual para una firma de abogados en Miami, lo cual me permite trabajar 100% en Inglés y relacionarme con gente de todas partes del mundo.</p>
+        </article>
+    </div>
+    </div>
+    <div id="form" class="body-div">
+        <div id="form-texto">
+        <h2>Contactame!</h2></div>
+        <div id="form-form">
+        <form id="form-container">
+            <label for="nombre">NOMBRE</label>
+            <input type="text" id="nombre" name="nombre"><br>
+            <label for="email">EMAIL</label>
+            <input type="email" id="email" name="email"><br>
+            <label for="mensaje">Mensaje:</label>
+            <textarea id="mensaje" name="mensaje"></textarea><br>
+        </form>
+        <input type="submit" id="submit-button" value="Enviar">
+    </div>
+    </div>
+    <footer id="footer"  class="body-div">
+        <div id="footer-logo">
+            <img src="./fotos/logo.png" alt="logo de Belu">
+            <p>© 2022 Belu</p>
+        </div>
+        <div id="footer-redes">
+            <div class="red">
+                <div><img src="./fotos/instagram.png" alt="red" width="27"></div>
+                <p>Instagram</p>
+            </div>
+            <div class="red">
+                <div><img src="./fotos/linkedin.png" alt="red" width="27"></div>
+                <p>Linkedin</p>
+            </div>
+            <div class="red">
+                <div><img src="./fotos/github.png" alt="red" width="27"></div>
+                <p>Github</p>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
